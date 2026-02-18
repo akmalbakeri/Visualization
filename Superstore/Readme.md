@@ -2,20 +2,21 @@
 
 This is continuation from previous **MySQL** project [Superstore](https://github.com/akmalbakeri/SQL/tree/main/superstore_sql) into a  **Power BI** for visualization.  
 Data is exported from MySQL GUI export to csv. 
+Power BI is exporting these CSV into Data Model and Dashboard Power BI is saved as [superstore.pdf](https://github.com/akmalbakeri/Visualization/blob/main/Superstore/src/superstore.pdf)
 
 ---
 
 
 ## 🔍 Key Findings
 
-[Page 1](link)
+![Page 1](https://github.com/akmalbakeri/Visualization/blob/main/Superstore/src/page1.JPG)
 ### 1. Sales Trend (1.1 & 1.2)
 - Sales show a consistent **year-on-year increase** from 2014 to 2017
 - **December** records the highest monthly sales, likely driven by Christmas and Black Friday seasonal demand — suggesting an opportunity to optimize inventory ahead of Q4
 - **January** sees the sharpest decline, typical post-holiday slowdown
 - Sales remain relatively **stable between April and August**
 
-[Page 2](link)
+![Page 2](https://github.com/akmalbakeri/Visualization/blob/main/Superstore/src/page2.JPG)
 ### 2. Sales vs Profit Gap (3.2)
 - There is a **massive gap between total sales and total profit** across all categories
 - This suggests the business relies heavily on **sales volume rather than product margin** — a risk if sales volume drops
@@ -37,7 +38,7 @@ Products are segmented into four quadrants based on average profit margin % and 
 | ⚠️ Q3: Low Margin & High Profit | Phones, Chairs, Binders | Dependent on volume — justify keeping via sales ranking |
 | 🔴 Q4: Low Margin & Low Profit | Machines, Bookcases, Supplies | Cutting these products could improve overall profit |
 
-[Page 3](link)
+![Page 3](https://github.com/akmalbakeri/Visualization/blob/main/Superstore/src/page3.JPG)
 ### 5. Sales by Region (4)
 - Sales are fairly evenly distributed across all regions — **West leads slightly at 31.58%** but no region significantly underperforms
 
@@ -46,7 +47,7 @@ Products are segmented into four quadrants based on average profit margin % and 
 - Their high sales volume justifies keeping them in the product lineup
 - **Copiers** ranks #1 in profit despite being lower in sales rank — confirming it as the standout product
 
-[Page 4](link)
+![Page 4](https://github.com/akmalbakeri/Visualization/blob/main/Superstore/src/page4.JPG)
 ### 7. Most Loss-Making Products (6)
 Cross-referencing the bottom 10 loss-making products with the Q4 sub-categories reveals 5 products that appear in **both** lists — making them strong candidates for discontinuation:
 
