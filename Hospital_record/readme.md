@@ -1,12 +1,12 @@
-### 📊 Data Source
+### 📊 Flow of project
 
 - Dataset is downloaded from Maven Analytics Hospital Patient Record [Link here](https://mavenanalytics.io/data-playground/hospital-patient-records)
-- From this, you get encounters.csv and also [Link here] hospital_analytics_questions.sql
-- From hospital_analytics_questions.sql, Maven posed some query to answer like below, than I already query in MySQL in [HERE](Repo
-- This visualization produced same result as MySQL query.
+- From this, you get [encounters.csv](https://github.com/akmalbakeri/SQL/blob/main/Hospital_record/encounters.csv) and also [hospital_analytics_questions.sql](https://github.com/akmalbakeri/SQL/blob/main/Hospital_record/hospital_analytics_questions.sql)
+- From hospital_analytics_questions.sql, Maven posed some query to answer like below, than I already query in MySQL in [questionbased.sql](https://github.com/akmalbakeri/SQL/blob/main/Hospital_record/questionbased.sql)
+- This visualization produced same result as MySQL query in questionbased.sql but 2 parts objective only.
 
  
-### 🏥 Hospital Records Dashboard — Encounters Overview
+### 🏥 Hospital Records Dashboard — encounters Overview
 -- OBJECTIVE 1: ENCOUNTERS OVERVIEW
 
  a. How many total encounters occurred each year?  
@@ -26,11 +26,11 @@
 
 - Dashboard 1 (OBJECTIVE 1: ENCOUNTERS OVERVIEW)
  [View interactively on Tableau Public](https://public.tableau.com/app/profile/akmal.bakeri/viz/hospitalrecord_17715959336800/Dashboard1)
- ![Hospitalrecord1.jpg](link
+ ![Hospitalrecord1.jpg](https://github.com/akmalbakeri/Visualization/blob/main/Hospital_record/Hospitalrecord1.jpg)
 
 - Dashboard 2 ( OBJECTIVE 2: COST & COVERAGE INSIGHTS)
 [View interactively on Tableau Public](https://public.tableau.com/app/profile/akmal.bakeri/viz/hospitalrecord-2/Dashboard2)
-  ![Hospitalrecord2.jpg](link
+  ![Hospitalrecord2.jpg](https://github.com/akmalbakeri/Visualization/blob/main/Hospital_record/Hospitalrecord2.jpg)
 
 
 
